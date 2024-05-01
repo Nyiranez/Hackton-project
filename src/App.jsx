@@ -3,7 +3,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Styling}   from "./pages/styling"
 import  {CrudfromAPIs}  from "./pages/crudfromAPIs"
-import { Datadisplay}  from "./pages/datadisplay"
+import BasicTable  from "./pages/datadisplay"
 import { Datamanipulation } from "./pages/datamanipulation"
 import { Dataselection } from "./pages/dataselection"
 import { Forms } from "./pages/forms"
@@ -21,7 +21,7 @@ function App() {
 
           <Route path="/" element={<Styling />}>
             <Route path="/styling/crudfromAPIs" element={<CrudfromAPIs/>} />
-            <Route path="/styling/datadisplay" element={<Datadisplay />} />
+            <Route path="/styling/datadisplay" element={<BasicTable />} />
             <Route path="/styling/datamanipulation" element={<Datamanipulation />} />
             <Route path="/styling/dataselection" element={<Dataselection />} />
             <Route path="/styling/forms" element={<Forms />} />
