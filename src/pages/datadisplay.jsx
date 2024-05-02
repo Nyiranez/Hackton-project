@@ -43,6 +43,12 @@ export default function BasicTable() {
             <TableCell align="right">Name</TableCell>
             <TableCell align="right">Color</TableCell>
             <TableCell align="right">Capacity</TableCell>
+            <TableCell align="right">Price</TableCell>
+            <TableCell align="right">Screen Size</TableCell>
+            <TableCell align="right">Description</TableCell>
+            <TableCell align="right">Generation</TableCell>
+            <TableCell align="right">Strap Colour</TableCell>
+            <TableCell align="right">Case Size</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -57,6 +63,12 @@ export default function BasicTable() {
               <TableCell align="right">{item.name}</TableCell>
               <TableCell align="right">{(item.data) ? item.data.color : "None"}</TableCell>
               <TableCell align="right">{(item.data) ? item.data.capacity : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.price : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.Screen_size : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.Generation : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.Description : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.Strap_Colour : "None"}</TableCell>
+              <TableCell align="right">{(item.data) ? item.data.Case_Size : "None"}</TableCell>
             </TableRow>
           ))}
         </TableBody>
