@@ -11,6 +11,7 @@ import { Imagehandling } from "./pages/imagehandling"
 import { Reacthooks } from "./pages/reacthooks"
 import { ReactRouterDOM } from "./pages/reactRouterDOM"
 import { Statepropagation } from "./pages/statepropagation"
+import { Add } from "./pages/add"
 function App() {
 
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/styling/reacthooks" element={<Reacthooks />} />
             <Route path="/styling/reactRouterDOM" element={<ReactRouterDOM />} />
             <Route path="/styling/statepropagation" element={<Statepropagation />} />
+            <Route path="/styling/add" element={<Add />} />
 
           </Route>
         </Routes>
