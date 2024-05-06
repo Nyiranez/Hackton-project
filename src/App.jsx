@@ -12,6 +12,8 @@ import { Reacthooks } from "./pages/reacthooks"
 import { ReactRouterDOM } from "./pages/reactRouterDOM"
 import { Statepropagation } from "./pages/statepropagation"
 import { Add } from "./pages/add"
+import { More } from "./pages/more"
+import { Update } from "./pages/update"
 function App() {
 
 
@@ -30,9 +32,12 @@ function App() {
             <Route path="/styling/reacthooks" element={<Reacthooks />} />
             <Route path="/styling/reactRouterDOM" element={<ReactRouterDOM />} />
             <Route path="/styling/statepropagation" element={<Statepropagation />} />
-            <Route path="/styling/add" element={<Add />} />
+           
 
           </Route>
+          <Route path="/add" element={<Add />} />
+          <Route path="/more/:contId" element={<More />} />
+          <Route path="/update/:contupId" element={<Update />} />
         </Routes>
       </BrowserRouter>
     </>

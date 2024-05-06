@@ -15,7 +15,7 @@ export const Styling = () => {
             <button className='border-2 border-black bg-blue-600 text-white px-4 py-2'><NavLink to="/styling/reactRouterDOM">ReactRouterDOM</NavLink></button>
             <button className='border-2 border-black bg-blue-600 text-white px-4 py-2'><NavLink to="/styling/statepropagation">StatePropagation</NavLink></button>
         </div>
-        <div className='mt-12 flex flex-col justify-center items-center'> <Outlet/></div>
+        <div className='mt-12'> <Outlet/></div>
        
     </div>
   )
